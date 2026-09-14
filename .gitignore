@@ -76,6 +76,8 @@ data/silver/*
 data/gold/*
 !data/gold/.gitkeep
 
+data/features/*
+!data/features/.gitkeep
 # Generated reports / figures
 results/depuration_figures/*
 !results/depuration_figures/.gitkeep
