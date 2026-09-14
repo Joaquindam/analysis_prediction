@@ -1,0 +1,20 @@
+# Core numerical/data stack
+numpy==2.5.1
+pandas==3.0.3
+
+# Parquet persistence
+pyarrow
+
+# Excel ingestion
+openpyxl==3.1.5
+python-calamine==0.8.0
+
+# PDF invoice extraction
+PyMuPDF
+
+# Exploratory analysis and figures
+matplotlib==3.11.0
+scipy
+
+# Machine learning
+scikit-learn

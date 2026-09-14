@@ -1,0 +1,21 @@
+fold,regime,selected_model,selection_source,prior_validation_folds,prior_selected_model_rows,prior_selected_model_wape,current_rows
+1,frequent,Historical expanding mean,initial_causal_baseline,0,0,,401
+1,regular,Historical expanding mean,initial_causal_baseline,0,0,,41
+1,intermittent,Historical expanding mean,initial_causal_baseline,0,0,,56
+1,sparse,Historical expanding mean,initial_causal_baseline,0,0,,8
+1,cold_start,Historical expanding mean,initial_causal_baseline,0,0,,21
+2,frequent,Historical expanding mean,prior_regime_oof,1,401,0.24452727020813775,412
+2,regular,Historical expanding mean,prior_regime_oof,1,41,0.40171540043880466,47
+2,intermittent,Historical expanding mean,prior_regime_oof,1,56,0.5841020408163266,62
+2,sparse,Historical expanding mean,prior_global_oof,1,527,0.2618699525310357,12
+2,cold_start,HistGradientBoosting Poisson,prior_regime_oof,1,21,0.8822335959175254,16
+3,frequent,Historical expanding mean,prior_regime_oof,2,813,0.2591069291063399,393
+3,regular,Historical expanding mean,prior_regime_oof,2,88,0.435173111298827,54
+3,intermittent,HistGradientBoosting Poisson,prior_regime_oof,2,118,0.6676757573274295,40
+3,cold_start,HistGradientBoosting Poisson,prior_regime_oof,2,37,0.7442282137082356,39
+3,sparse,Historical expanding mean,prior_regime_oof,2,20,0.6472508591065292,26
+4,frequent,Historical expanding mean,prior_regime_oof,3,1206,0.26803548505254304,394
+4,regular,Historical expanding mean,prior_regime_oof,3,142,0.43847988363598567,54
+4,intermittent,HistGradientBoosting Poisson,prior_regime_oof,3,158,0.6405380691518174,55
+4,sparse,Historical expanding mean,prior_regime_oof,3,46,0.6543447293447294,31
+4,cold_start,HistGradientBoosting Poisson,prior_regime_oof,3,76,0.6359138119908426,13

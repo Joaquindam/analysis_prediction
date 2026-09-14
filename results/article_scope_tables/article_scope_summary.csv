@@ -1,0 +1,12 @@
+metric,value
+catalogue_union_articles,405
+article_master_unique_codes,405
+menu_unique_codes,405
+observed_in_demand_history,251
+observed_in_complete_history,251
+observed_last_4_periods,170
+observed_last_8_periods,196
+explicit_active,0
+explicit_inactive,0
+manual_review_required,55
+forecast_eligible_recommended,251

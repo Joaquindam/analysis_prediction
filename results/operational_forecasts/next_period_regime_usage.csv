@@ -1,0 +1,6 @@
+demand_regime,article_count
+frequent,100
+cold_start,44
+intermittent,42
+sparse,40
+regular,25

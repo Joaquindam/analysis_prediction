@@ -1,0 +1,123 @@
+{
+  "rules": {
+    "article_code_column": "article_code",
+    "article_name_candidates": [
+      "article_name",
+      "name",
+      "descripcion"
+    ],
+    "complete_period_column": "period_is_complete",
+    "period_start_column": "report_start",
+    "period_end_column": "report_end",
+    "units_column": "units",
+    "recent_periods_short": 4,
+    "recent_periods_long": 8,
+    "active_flag_candidates": [
+      "is_active",
+      "active",
+      "activo",
+      "habilitado",
+      "enabled",
+      "en_carta",
+      "in_menu"
+    ],
+    "status_candidates": [
+      "status",
+      "estado",
+      "article_status",
+      "estado_articulo"
+    ],
+    "valid_from_candidates": [
+      "valid_from",
+      "start_date",
+      "fecha_inicio",
+      "fecha_alta",
+      "active_from"
+    ],
+    "valid_to_candidates": [
+      "valid_to",
+      "end_date",
+      "fecha_fin",
+      "fecha_baja",
+      "active_to"
+    ],
+    "active_status_tokens": [
+      "active",
+      "activo",
+      "enabled",
+      "habilitado",
+      "current",
+      "vigente"
+    ],
+    "inactive_status_tokens": [
+      "inactive",
+      "inactivo",
+      "disabled",
+      "deshabilitado",
+      "retired",
+      "retirado",
+      "baja"
+    ],
+    "menu_informative_max_master_coverage": 0.95,
+    "policy": "conservative_observed_history",
+    "save_tables": true,
+    "save_report": true
+  },
+  "forecast_start": "2026-07-13T00:00:00",
+  "period_reference": {
+    "complete_periods": 39,
+    "first_complete_period": "2025-10-06T00:00:00",
+    "last_complete_period": "2026-07-05T00:00:00"
+  },
+  "source_capabilities": {
+    "article_master_rows": 405,
+    "article_master_unique_codes": 405,
+    "menu_rows": 405,
+    "menu_unique_codes": 405,
+    "menu_master_code_coverage": 1.0,
+    "menu_is_informative_subset": false,
+    "article_master_status_columns": {
+      "active_flag": null,
+      "status": null,
+      "valid_from": null,
+      "valid_to": null
+    },
+    "menu_status_columns": {
+      "active_flag": null,
+      "status": null,
+      "valid_from": null,
+      "valid_to": null
+    }
+  },
+  "authoritative_status_available": false,
+  "recommendation": "No authoritative active/inactive signal is available. Keep historically observed articles forecastable under the conservative policy and flag stale articles for manual/business review rather than silently excluding them.",
+  "activity_status_counts": {
+    "recent_observed": 170,
+    "catalogue_only_unobserved": 154,
+    "stale_observed": 55,
+    "moderately_recent_observed": 26
+  },
+  "scope_reason_counts": {
+    "included_recent_demand_history": 196,
+    "excluded_no_demand_history": 154,
+    "included_observed_history_conservative": 55
+  },
+  "summary": {
+    "catalogue_union_articles": 405,
+    "article_master_unique_codes": 405,
+    "menu_unique_codes": 405,
+    "observed_in_demand_history": 251,
+    "observed_in_complete_history": 251,
+    "observed_last_4_periods": 170,
+    "observed_last_8_periods": 196,
+    "explicit_active": 0,
+    "explicit_inactive": 0,
+    "manual_review_required": 55,
+    "forecast_eligible_recommended": 251
+  },
+  "methodology": {
+    "missing_article_period_semantics": "Absence from a historical article-period is not interpreted as zero demand or definitive inactivity.",
+    "stale_articles": "Recency is used as a review signal, not as an automatic inactive label under the conservative policy.",
+    "catalogue_only_articles": "Articles with no demand history are not forecast by the current article-demand architecture by default."
+  }
+}

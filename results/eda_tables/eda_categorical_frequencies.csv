@@ -1,0 +1,378 @@
+layer,dataset,column,value,count,fraction_non_null,cardinality
+silver,articulos,source_file,ARTICULOS.xls,405,1.0,1
+silver,articulos,article_short_name,BOLA DE HE,1,0.05555555555555555,18
+silver,articulos,article_short_name,CHULETA DE,1,0.05555555555555555,18
+silver,articulos,article_short_name,COPA TINTO,1,0.05555555555555555,18
+silver,articulos,article_short_name,COPA BLANC,1,0.05555555555555555,18
+silver,articulos,article_short_name,CREMA DE C,1,0.05555555555555555,18
+silver,articulos,article_short_name,CREMA DEL,1,0.05555555555555555,18
+silver,articulos,article_short_name,CREMOSO DE,1,0.05555555555555555,18
+silver,articulos,article_short_name,ENSALADA S,1,0.05555555555555555,18
+silver,articulos,article_short_name,LOMO BAJO,1,0.05555555555555555,18
+silver,articulos,article_short_name,HAMBURGUES,1,0.05555555555555555,18
+silver,articulos,article_short_name,HERRADURA,1,0.05555555555555555,18
+silver,articulos,article_short_name,J&B,1,0.05555555555555555,18
+silver,articulos,article_short_name,macedonia,1,0.05555555555555555,18
+silver,articulos,article_short_name,NUESTRAS C,1,0.05555555555555555,18
+silver,articulos,article_short_name,PESCADO DE,1,0.05555555555555555,18
+silver,articulos,article_code__conflict,False,405,1.0,1
+silver,departamentos,source_file,DEPARTAMENTOS.xls,23,1.0,1
+silver,departamentos,department_name,APARTADO,1,0.043478260869565216,23
+silver,departamentos,department_name,BLANCOS,1,0.043478260869565216,23
+silver,departamentos,department_name,BODEGA,1,0.043478260869565216,23
+silver,departamentos,department_name,CARTA,1,0.043478260869565216,23
+silver,departamentos,department_name,CERVEZAS,1,0.043478260869565216,23
+silver,departamentos,department_name,CLASICOS,1,0.043478260869565216,23
+silver,departamentos,department_name,ESPUMOSOS,1,0.043478260869565216,23
+silver,departamentos,department_name,EXTRAS,1,0.043478260869565216,23
+silver,departamentos,department_name,FIESTAS,1,0.043478260869565216,23
+silver,departamentos,department_name,GUARNICIONES,1,0.043478260869565216,23
+silver,departamentos,department_name,LICORES,1,0.043478260869565216,23
+silver,departamentos,department_name,MENU DEL DIA,1,0.043478260869565216,23
+silver,departamentos,department_name,OTROS,1,0.043478260869565216,23
+silver,departamentos,department_name,POSTRES,1,0.043478260869565216,23
+silver,departamentos,department_name,PRIMEROS,1,0.043478260869565216,23
+silver,departamentos,department_code__conflict,False,23,1.0,1
+silver,eventos,source_file,eventos_relevantes_pozuelo_la_roca_2025_2026.csv,522,1.0,1
+silver,eventos,event_category,calendario_escolar,129,0.2471264367816092,11
+silver,eventos,event_category,evento_local_cultural,113,0.2164750957854406,11
+silver,eventos,event_category,temporada_modelado,100,0.19157088122605365,11
+silver,eventos,event_category,evento_deportivo_tv,78,0.14942528735632185,11
+silver,eventos,event_category,fiesta_local,27,0.05172413793103448,11
+silver,eventos,event_category,evento_madrid_cultural,24,0.04597701149425287,11
+silver,eventos,event_category,calendario_social,20,0.038314176245210725,11
+silver,eventos,event_category,evento_deportivo_madrid,18,0.034482758620689655,11
+silver,eventos,event_category,calendario_comercial,8,0.01532567049808429,11
+silver,eventos,event_category,evento_local_comercial,4,0.007662835249042145,11
+silver,eventos,event_category,evento_deportivo_local,1,0.0019157088122605363,11
+silver,eventos,event_scope,Pozuelo,142,0.2720306513409962,14
+silver,eventos,event_scope,Comunidad de Madrid,132,0.25287356321839083,14
+silver,eventos,event_scope,General / Madrid,71,0.1360153256704981,14
+silver,eventos,event_scope,Internacional / TV,45,0.08620689655172414,14
+silver,eventos,event_scope,Madrid,42,0.08045977011494253,14
+silver,eventos,event_scope,Pozuelo / Madrid,37,0.07088122605363985,14
+silver,eventos,event_scope,Europa / TV,28,0.05363984674329502,14
+silver,eventos,event_scope,Espana / Comunidad de Madrid,6,0.011494252873563218,14
+silver,eventos,event_scope,General,4,0.007662835249042145,14
+silver,eventos,event_scope,Madrid / TV,4,0.007662835249042145,14
+silver,eventos,event_scope,Espana,4,0.007662835249042145,14
+silver,eventos,event_scope,Pozuelo - Humera,3,0.005747126436781609,14
+silver,eventos,event_scope,Espana / Madrid,3,0.005747126436781609,14
+silver,eventos,event_scope,TV / Barcelona,1,0.0019157088122605363,14
+silver,eventos,event_location,Pozuelo / Comunidad de Madrid,129,0.2471264367816092,28
+silver,eventos,event_location,Visionado en restaurantes,74,0.1417624521072797,28
+silver,eventos,event_location,Pozuelo,47,0.09003831417624521,28
+silver,eventos,event_location,"Auditorio El Torreon, Templete y otros espacios",45,0.08620689655172414,28
+silver,eventos,event_location,Restauracion familiar,44,0.0842911877394636,28
+silver,eventos,event_location,Diferentes ubicaciones municipales,32,0.06130268199233716,28
+silver,eventos,event_location,Restauracion,22,0.0421455938697318,28
+silver,eventos,event_location,Pozuelo / Madrid,17,0.032567049808429116,28
+silver,eventos,event_location,Centro Cultural MIRA,16,0.03065134099616858,28
+silver,eventos,event_location,Caja Magica,14,0.02681992337164751,28
+silver,eventos,event_location,Centro de Madrid,11,0.0210727969348659,28
+silver,eventos,event_location,Centro de Pozuelo / Plaza Padre Vallet / recinto ferial,9,0.017241379310344827,28
+silver,eventos,event_location,Madrid capital,9,0.017241379310344827,28
+silver,eventos,event_location,Zonas comerciales y restauracion,8,0.01532567049808429,28
+silver,eventos,event_location,Parque Prados de Torrejon / Humera,5,0.009578544061302681,28
+silver,eventos,proximity_la_roca,alta,248,0.47509578544061304,4
+silver,eventos,proximity_la_roca,media,150,0.28735632183908044,4
+silver,eventos,proximity_la_roca,baja,120,0.22988505747126436,4
+silver,eventos,proximity_la_roca,muy_alta,4,0.007662835249042145,4
+silver,eventos,expected_impact,medio,237,0.4540229885057471,7
+silver,eventos,expected_impact,mixto,113,0.2164750957854406,7
+silver,eventos,expected_impact,bajo,94,0.18007662835249041,7
+silver,eventos,expected_impact,alto,43,0.08237547892720307,7
+silver,eventos,expected_impact,negativo_medio,31,0.05938697318007663,7
+silver,eventos,expected_impact,negativo_bajo,3,0.005747126436781609,7
+silver,eventos,expected_impact,muy_alto,1,0.0019157088122605363,7
+silver,eventos,demand_direction,aumenta,350,0.6704980842911877,3
+silver,eventos,demand_direction,mixto,138,0.26436781609195403,3
+silver,eventos,demand_direction,disminuye,34,0.06513409961685823,3
+silver,eventos,probable_service_window,"comida,cena",152,0.29118773946360155,18
+silver,eventos,probable_service_window,"tarde,cena,noche",96,0.1839080459770115,18
+silver,eventos,probable_service_window,"comida,fin_de_semana",44,0.0842911877394636,18
+silver,eventos,probable_service_window,"tarde,cena,fin_de_semana",41,0.07854406130268199,18
+silver,eventos,probable_service_window,"cena,noche",39,0.07471264367816093,18
+silver,eventos,probable_service_window,"tarde,cena",37,0.07088122605363985,18
+silver,eventos,probable_service_window,"comida,tarde,cena",33,0.06321839080459771,18
+silver,eventos,probable_service_window,"comida_laboral,cena",31,0.05938697318007663,18
+silver,eventos,probable_service_window,"comida,tarde,cena,noche",19,0.03639846743295019,18
+silver,eventos,probable_service_window,"manana,comida",6,0.011494252873563218,18
+silver,eventos,probable_service_window,"comida,tarde",5,0.009578544061302681,18
+silver,eventos,probable_service_window,tarde,5,0.009578544061302681,18
+silver,eventos,probable_service_window,"tarde,noche",4,0.007662835249042145,18
+silver,eventos,probable_service_window,comida,3,0.005747126436781609,18
+silver,eventos,probable_service_window,"manana,comida,tarde,cena",3,0.005747126436781609,18
+silver,eventos,customer_segment,"familias,residentes",127,0.24329501915708812,30
+silver,eventos,customer_segment,"aficionados,grupos",78,0.14942528735632185,30
+silver,eventos,customer_segment,"familias,residentes,publico_cultural",48,0.09195402298850575,30
+silver,eventos,customer_segment,"familias,grupos",45,0.08620689655172414,30
+silver,eventos,customer_segment,"residentes,empresas",31,0.05938697318007663,30
+silver,eventos,customer_segment,"publico_cultural,residentes",21,0.040229885057471264,30
+silver,eventos,customer_segment,"familias,residentes,visitantes",20,0.038314176245210725,30
+silver,eventos,customer_segment,"familias,ninos,residentes",20,0.038314176245210725,30
+silver,eventos,customer_segment,"empresas,grupos",19,0.03639846743295019,30
+silver,eventos,customer_segment,"turistas,aficionados,deporte",14,0.02681992337164751,30
+silver,eventos,customer_segment,"turistas,residentes,grupos",11,0.0210727969348659,30
+silver,eventos,customer_segment,"residentes,familias",10,0.019157088122605363,30
+silver,eventos,customer_segment,"familias,estudiantes,profesores",10,0.019157088122605363,30
+silver,eventos,customer_segment,"turistas,residentes_madrid",9,0.017241379310344827,30
+silver,eventos,customer_segment,"familias,residentes,grupos,visitantes",9,0.017241379310344827,30
+silver,eventos,date_confidence,alta,387,0.7413793103448276,3
+silver,eventos,date_confidence,media,125,0.23946360153256704,3
+silver,eventos,date_confidence,baja,10,0.019157088122605363,3
+silver,eventos,source_type,oficial,394,0.7547892720306514,3
+silver,eventos,source_type,regla_modelado,108,0.20689655172413793,3
+silver,eventos,source_type,regla_calendario,20,0.038314176245210725,3
+silver,eventos,source_url,https://www.comunidad.madrid/educacion/calendario-escolar,129,0.2471264367816092,30
+silver,eventos,source_url,regla_modelado_negocio,108,0.20689655172413793,30
+silver,eventos,source_url,https://cultura.pozuelodealarcon.org/cultura-y-ocio/ciclos-y-exposiciones/veranos-de-pozuelo-2026,45,0.08620689655172414,30
+silver,eventos,source_url,https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums,41,0.07854406130268199,30
+silver,eventos,source_url,https://www.pozuelodealarcon.org/navidad-en-pozuelo-2025,32,0.06130268199233716,30
+silver,eventos,source_url,https://www.uefa.com/uefachampionsleague/news/0296-1d21e9bdf7e4-808a7511165c-1000--2025-26-champions-league-teams-format-dates-draws-final/,28,0.05363984674329502,30
+silver,eventos,source_url,https://www.pozuelodealarcon.org/agenda-cultural,21,0.040229885057471264,30
+silver,eventos,source_url,regla_calendario_estandar,20,0.038314176245210725,30
+silver,eventos,source_url,https://mutuamadridopen.com/,14,0.02681992337164751,30
+silver,eventos,source_url,https://www.togayther.es/noticias/orgullos-lgtb/orgullo-madrid-2026-programa-completo-fechas-horarios-manifestacion-mado/,11,0.0210727969348659,30
+silver,eventos,source_url,https://www.pozuelodealarcon.org/tu-ciudad/acerca-de-pozuelo/fiestas-y-tradiciones-cultura,10,0.019157088122605363,30
+silver,eventos,source_url,https://elresurgirdemadrid.com/fiestas-patronales-de-pozuelo-de-alarcon/,9,0.017241379310344827,30
+silver,eventos,source_url,https://diario.madrid.es/blog/2026/05/04/san-isidro-2026-madrid-programa-completo/,9,0.017241379310344827,30
+silver,eventos,source_url,https://cubo.pozuelodealarcon.org/sites/default/files/2026-02/Actividades%20Juventud%20y%20Voluntariado%20febrero%202026.pdf,5,0.009578544061302681,30
+silver,eventos,source_url,https://cultura.pozuelodealarcon.org/cultura-y-ocio,5,0.009578544061302681,30
+silver,facturas,table,203,7,0.09722222222222222,23
+silver,facturas,table,006,6,0.08333333333333333,23
+silver,facturas,table,007,6,0.08333333333333333,23
+silver,facturas,table,003,5,0.06944444444444445,23
+silver,facturas,table,004,5,0.06944444444444445,23
+silver,facturas,table,005,4,0.05555555555555555,23
+silver,facturas,table,210,4,0.05555555555555555,23
+silver,facturas,table,011,4,0.05555555555555555,23
+silver,facturas,table,211,3,0.041666666666666664,23
+silver,facturas,table,204,3,0.041666666666666664,23
+silver,facturas,table,205,3,0.041666666666666664,23
+silver,facturas,table,001,3,0.041666666666666664,23
+silver,facturas,table,013,3,0.041666666666666664,23
+silver,facturas,table,010,2,0.027777777777777776,23
+silver,facturas,table,009,2,0.027777777777777776,23
+silver,facturas,served_by,NEY,50,0.6944444444444444,4
+silver,facturas,served_by,ALE,12,0.16666666666666666,4
+silver,facturas,served_by,EXTRA 1,7,0.09722222222222222,4
+silver,facturas,served_by,MARTIN,3,0.041666666666666664,4
+silver,facturas,payment_method,cash,68,0.9444444444444444,2
+silver,facturas,payment_method,mixed,4,0.05555555555555555,2
+silver,facturas,pago_tarjeta,False,68,0.9444444444444444,2
+silver,facturas,pago_tarjeta,True,4,0.05555555555555555,2
+silver,festivos,source_file,festivos_madrid.csv,57,1.0,1
+silver,festivos,holiday_name,Año Nuevo,4,0.07017543859649122,19
+silver,festivos,holiday_name,Epifanía del Señor,4,0.07017543859649122,19
+silver,festivos,holiday_name,Jueves Santo,4,0.07017543859649122,19
+silver,festivos,holiday_name,San Isidro (festivo local Madrid capital),4,0.07017543859649122,19
+silver,festivos,holiday_name,Viernes Santo,4,0.07017543859649122,19
+silver,festivos,holiday_name,Fiesta del Trabajo,4,0.07017543859649122,19
+silver,festivos,holiday_name,Fiesta de la Comunidad de Madrid,4,0.07017543859649122,19
+silver,festivos,holiday_name,Todos los Santos,3,0.05263157894736842,19
+silver,festivos,holiday_name,Virgen del Carmen (festivo local Pozuelo),3,0.05263157894736842,19
+silver,festivos,holiday_name,Asunción de la Virgen,3,0.05263157894736842,19
+silver,festivos,holiday_name,Virgen de la Consolación (festivo local Pozuelo),3,0.05263157894736842,19
+silver,festivos,holiday_name,Natividad del Señor,3,0.05263157894736842,19
+silver,festivos,holiday_name,Día de la Constitución Española,3,0.05263157894736842,19
+silver,festivos,holiday_name,Inmaculada Concepción,3,0.05263157894736842,19
+silver,festivos,holiday_name,Ntra. Sra. de la Almudena (festivo local Madrid capital),2,0.03508771929824561,19
+silver,festivos,day_name,Viernes,13,0.22807017543859648,7
+silver,festivos,day_name,Jueves,13,0.22807017543859648,7
+silver,festivos,day_name,Lunes,12,0.21052631578947367,7
+silver,festivos,day_name,Miércoles,7,0.12280701754385964,7
+silver,festivos,day_name,Sábado,6,0.10526315789473684,7
+silver,festivos,day_name,Martes,4,0.07017543859649122,7
+silver,festivos,day_name,Domingo,2,0.03508771929824561,7
+silver,festivos,holiday_level,nacional_autonomico,44,0.7719298245614035,3
+silver,festivos,holiday_level,local_madrid_capital,7,0.12280701754385964,3
+silver,festivos,holiday_level,local_pozuelo,6,0.10526315789473684,3
+silver,menu,source_file,CARTA.xls,405,1.0,1
+silver,menu,article_code__conflict,False,405,1.0,1
+silver,meteo_diaria,source_file,open-meteo-pozuelo.csv,1286,1.0,1
+silver,meteo_diaria,timezone,Europe/Berlin,1286,1.0,1
+silver,meteo_diaria,timezone_abbreviation,GMT+2,1286,1.0,1
+silver,meteo_diaria,temperature_mean__physically_suspicious,False,1286,1.0,1
+silver,meteo_diaria,temperature_max__physically_suspicious,False,1286,1.0,1
+silver,meteo_diaria,temperature_min__physically_suspicious,False,1286,1.0,1
+silver,meteo_diaria,precipitation_hours__physically_suspicious,False,1286,1.0,1
+silver,meteo_diaria,sunshine_duration_s__physically_suspicious,False,1286,1.0,1
+silver,meteo_diaria,sunshine_hours__physically_suspicious,False,1286,1.0,1
+silver,meteo_horaria,source_file,open-meteo-pozuelo.csv,30864,1.0,1
+silver,meteo_horaria,timezone,Europe/Berlin,30864,1.0,1
+silver,meteo_horaria,timezone_abbreviation,GMT+2,30864,1.0,1
+silver,meteo_horaria,temperature_2m__physically_suspicious,False,30864,1.0,1
+silver,reservas,source_file,RESERVAS.xlsx,21341,1.0,1
+silver,reservas,status,Sentada,17100,0.8012745419614826,11
+silver,reservas,status,Cancelado por el cliente,2882,0.1350452181247364,11
+silver,reservas,status,Liberada,663,0.031066960311138186,11
+silver,reservas,status,No show,493,0.023101073051871982,11
+silver,reservas,status,Confirmada,158,0.007403589335082705,11
+silver,reservas,status,Llegada,14,0.000656014244880746,11
+silver,reservas,status,Cuenta solicitada,13,0.0006091560845321212,11
+silver,reservas,status,Cancelado por el restaurante,11,0.0005154397638348719,11
+silver,reservas,status,A revisar,3,0.00014057448104587414,11
+silver,reservas,status,Pendiente,2,9.371632069724943e-05,11
+silver,reservas,status,Reconfirmada,2,9.371632069724943e-05,11
+silver,reservas,shift,Comida,11120,0.5210627430767069,2
+silver,reservas,shift,Cena,10221,0.4789372569232932,2
+silver,reservas,origin,software,6429,0.3012511128813083,6
+silver,reservas,origin,terceros,6365,0.29825219061899627,6
+silver,reservas,origin,moduloweb,5271,0.24698936319760087,6
+silver,reservas,origin,walk in,3072,0.14394826859097512,6
+silver,reservas,origin,appmovil,139,0.006513284288458835,6
+silver,reservas,origin,app-movil,65,0.0030457804226606063,6
+silver,reservas,referrer,Google,6268,0.9847604084838963,4
+silver,reservas,referrer,FlipEat,64,0.010054988216810683,4
+silver,reservas,referrer,OpenTable,32,0.0050274941084053415,4
+silver,reservas,referrer,Flipeat,1,0.00015710919088766692,4
+silver,reservas,restaurant,LA ROCA Pozuelo,21341,1.0,1
+silver,reservas,reservation_type,Normal,21341,1.0,1
+silver,reservas,zone,Sala,14750,0.6911578651422146,3
+silver,reservas,zone,Terraza Cubierta,6574,0.30804554613185886,3
+silver,reservas,zone,UNKNOWN,17,0.0007965887259266201,3
+silver,reservas,entered_by,larocapozuelo,3064,0.9990218454515813,3
+silver,reservas,entered_by,NEY,2,0.0006521030322791001,3
+silver,reservas,entered_by,0,1,0.00032605151613955004,3
+silver,reservas,group,NO,21314,0.9987348296705871,2
+silver,reservas,group,SI,27,0.0012651703294128673,2
+silver,reservas,status_grouped,completed,17100,0.8012745419614826,8
+silver,reservas,status_grouped,cancelled,2893,0.1355606578885713,8
+silver,reservas,status_grouped,liberada,663,0.031066960311138186,8
+silver,reservas,status_grouped,no_show,493,0.023101073051871982,8
+silver,reservas,status_grouped,pending,162,0.007591021976477204,8
+silver,reservas,status_grouped,llegada,14,0.000656014244880746,8
+silver,reservas,status_grouped,cuenta_solicitada,13,0.0006091560845321212,8
+silver,reservas,status_grouped,a_revisar,3,0.00014057448104587414,8
+silver,reservas,is_large_group,False,20322,0.9522515346047514,2
+silver,reservas,is_large_group,True,1019,0.04774846539524858,2
+silver,reservas,is_walk_in,False,18269,0.8560517314090249,2
+silver,reservas,is_walk_in,True,3072,0.14394826859097512,2
+silver,reservas,created_after_reservation_time,False,18236,0.8545054121175203,2
+silver,reservas,created_after_reservation_time,True,3105,0.14549458788247974,2
+silver,reservas,walk_in_created_after_slot,False,18274,0.856286022210768,2
+silver,reservas,walk_in_created_after_slot,True,3067,0.143713977789232,2
+silver,tickets,source_file,LISTA_TICKETS.xls,6709,1.0,1
+silver,tickets,terminal_start,1 LA ROCA POZUELO,6709,1.0,1
+silver,tickets,terminal_end,1 LA ROCA POZUELO,6709,1.0,1
+silver,tickets,turn,T,6709,1.0,1
+silver,tickets,day_of_week,Friday,1742,0.2596512147861082,7
+silver,tickets,day_of_week,Saturday,1430,0.2131465196005366,7
+silver,tickets,day_of_week,Thursday,1009,0.15039499180205693,7
+silver,tickets,day_of_week,Wednesday,918,0.13683112237293188,7
+silver,tickets,day_of_week,Tuesday,792,0.11805038008645104,7
+silver,tickets,day_of_week,Sunday,724,0.10791474139215979,7
+silver,tickets,day_of_week,Monday,94,0.014011029959755552,7
+silver,tips,source_file,PROPINAS_TICKET.xls,1697,1.0,1
+silver,tips,terminal_start,1 LA ROCA POZUELO,1697,1.0,1
+silver,tips,terminal_end,1 LA ROCA POZUELO,1697,1.0,1
+silver,tips,turn,T,1697,1.0,1
+silver,total_articles,source_file,TOTAL_ARTICULOS.xls,251,1.0,1
+silver,total_articles,terminal_start,1 LA ROCA POZUELO,251,1.0,1
+silver,total_articles,terminal_end,1 LA ROCA POZUELO,251,1.0,1
+silver,total_articles,turn,T,251,1.0,1
+silver,total_articles,department_name,LICORES,50,0.199203187250996,18
+silver,total_articles,department_name,TINTOS,29,0.11553784860557768,18
+silver,total_articles,department_name,SUGERENCIAS,27,0.10756972111553785,18
+silver,total_articles,department_name,CARTA,23,0.09163346613545817,18
+silver,total_articles,department_name,REFRESCOS,20,0.0796812749003984,18
+silver,total_articles,department_name,CERVEZAS,17,0.06772908366533864,18
+silver,total_articles,department_name,POSTRES,17,0.06772908366533864,18
+silver,total_articles,department_name,BLANCOS,16,0.06374501992031872,18
+silver,total_articles,department_name,EXTRAS,9,0.035856573705179286,18
+silver,total_articles,department_name,TAPAS CALIENTES,9,0.035856573705179286,18
+silver,total_articles,department_name,CLASICOS,7,0.027888446215139442,18
+silver,total_articles,department_name,APARTADO,7,0.027888446215139442,18
+silver,total_articles,department_name,TAPAS FRIAS,6,0.02390438247011952,18
+silver,total_articles,department_name,GUARNICIONES,5,0.0199203187250996,18
+silver,total_articles,department_name,ESPUMOSOS,3,0.01195219123505976,18
+silver,total_articles,es_invitacion,False,251,1.0,1
+silver,ventas,terminal_start,1 LA ROCA POZUELO,5532,1.0,1
+silver,ventas,terminal_end,1 LA ROCA POZUELO,5532,1.0,1
+silver,ventas,turn,T,5532,1.0,1
+silver,ventas,department_name,CARTA,868,0.1569052783803326,18
+silver,ventas,department_name,REFRESCOS,595,0.10755603759942155,18
+silver,ventas,department_name,SUGERENCIAS,531,0.09598698481561822,18
+silver,ventas,department_name,POSTRES,492,0.08893709327548807,18
+silver,ventas,department_name,TINTOS,491,0.08875632682574114,18
+silver,ventas,department_name,LICORES,446,0.08062183658712943,18
+silver,ventas,department_name,CERVEZAS,425,0.07682574114244396,18
+silver,ventas,department_name,TAPAS CALIENTES,300,0.05422993492407809,18
+silver,ventas,department_name,TAPAS FRIAS,272,0.049168474331164135,18
+silver,ventas,department_name,CLASICOS,260,0.046999276934201015,18
+silver,ventas,department_name,BLANCOS,237,0.042841648590021694,18
+silver,ventas,department_name,EXTRAS,227,0.04103398409255242,18
+silver,ventas,department_name,GUARNICIONES,168,0.03036876355748373,18
+silver,ventas,department_name,OTROS,117,0.021149674620390455,18
+silver,ventas,department_name,ESPUMOSOS,47,0.008496023138105567,18
+silver,ventas,es_invitacion,False,5512,0.9963846710050615,2
+silver,ventas,es_invitacion,True,20,0.0036153289949385392,2
+gold,tabla_maestra_diaria,es_festivo,False,269,0.9572953736654805,2
+gold,tabla_maestra_diaria,es_festivo,True,12,0.042704626334519574,2
+gold,tabla_maestra_diaria,festivo_nombre,Todos los Santos,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,"Ntra. Sra. de la Almudena (festivo local Madrid capital, trasladado)",1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,Día de la Constitución Española,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,Inmaculada Concepción,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,Natividad del Señor,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,Año Nuevo,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,Epifanía del Señor,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,Jueves Santo,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,Viernes Santo,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,Fiesta del Trabajo,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,Fiesta de la Comunidad de Madrid,1,0.08333333333333333,12
+gold,tabla_maestra_diaria,festivo_nombre,San Isidro (festivo local Madrid capital),1,0.08333333333333333,12
+gold,tabla_maestra_diaria,tiene_evento,True,180,0.6405693950177936,2
+gold,tabla_maestra_diaria,tiene_evento,False,101,0.3594306049822064,2
+gold,tabla_maestra_diaria,day_of_week,Thursday,41,0.14590747330960854,7
+gold,tabla_maestra_diaria,day_of_week,Friday,40,0.1423487544483986,7
+gold,tabla_maestra_diaria,day_of_week,Saturday,40,0.1423487544483986,7
+gold,tabla_maestra_diaria,day_of_week,Sunday,40,0.1423487544483986,7
+gold,tabla_maestra_diaria,day_of_week,Monday,40,0.1423487544483986,7
+gold,tabla_maestra_diaria,day_of_week,Tuesday,40,0.1423487544483986,7
+gold,tabla_maestra_diaria,day_of_week,Wednesday,40,0.1423487544483986,7
+gold,tabla_maestra_diaria,is_weekend,False,201,0.7153024911032029,2
+gold,tabla_maestra_diaria,is_weekend,True,80,0.2846975088967972,2
+gold,tabla_maestra_diaria,is_month_start,False,272,0.9679715302491103,2
+gold,tabla_maestra_diaria,is_month_start,True,9,0.03202846975088968,2
+gold,tabla_maestra_diaria,is_month_end,False,272,0.9679715302491103,2
+gold,tabla_maestra_diaria,is_month_end,True,9,0.03202846975088968,2
+gold,tabla_maestra_diaria,facturacion_source,tickets,242,1.0,1
+gold,tabla_maestra_semanal_articulos,period_is_complete,True,5296,0.9608127721335269,2
+gold,tabla_maestra_semanal_articulos,period_is_complete,False,216,0.03918722786647315,2
+gold,tabla_maestra_semanal_articulos,period_is_complete_week,True,5296,0.9608127721335269,2
+gold,tabla_maestra_semanal_articulos,period_is_complete_week,False,216,0.03918722786647315,2
+gold,tabla_maestra_semanal_articulos,es_invitacion,False,5512,1.0,1
+gold,tabla_maestra_semanal_articulos,department_name,CARTA,867,0.15729317851959362,18
+gold,tabla_maestra_semanal_articulos,department_name,REFRESCOS,595,0.10794629898403484,18
+gold,tabla_maestra_semanal_articulos,department_name,SUGERENCIAS,531,0.09633526850507983,18
+gold,tabla_maestra_semanal_articulos,department_name,TINTOS,491,0.08907837445573295,18
+gold,tabla_maestra_semanal_articulos,department_name,POSTRES,488,0.08853410740203194,18
+gold,tabla_maestra_semanal_articulos,department_name,LICORES,432,0.0783744557329463,18
+gold,tabla_maestra_semanal_articulos,department_name,CERVEZAS,425,0.0771044992743106,18
+gold,tabla_maestra_semanal_articulos,department_name,TAPAS CALIENTES,300,0.054426705370101594,18
+gold,tabla_maestra_semanal_articulos,department_name,TAPAS FRIAS,272,0.04934687953555878,18
+gold,tabla_maestra_semanal_articulos,department_name,CLASICOS,260,0.04716981132075472,18
+gold,tabla_maestra_semanal_articulos,department_name,BLANCOS,237,0.04299709724238026,18
+gold,tabla_maestra_semanal_articulos,department_name,EXTRAS,227,0.04118287373004354,18
+gold,tabla_maestra_semanal_articulos,department_name,GUARNICIONES,168,0.030478955007256895,18
+gold,tabla_maestra_semanal_articulos,department_name,OTROS,116,0.02104499274310595,18
+gold,tabla_maestra_semanal_articulos,department_name,ESPUMOSOS,47,0.008526850507982584,18
+gold,tabla_maestra_semanal_articulos,article_name__master_conflict__articles_master,False,5512,1.0,1
+gold,tabla_maestra_semanal_articulos,department_code__master_conflict__articles_master,False,5512,1.0,1
+gold,tabla_maestra_semanal_articulos,department_name__master_conflict__departments_master,False,5512,1.0,1
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,CARTA,867,0.15729317851959362,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,REFRESCOS,595,0.10794629898403484,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,SUGERENCIAS,531,0.09633526850507983,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,TINTOS,491,0.08907837445573295,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,POSTRES,488,0.08853410740203194,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,LICORES,432,0.0783744557329463,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,CERVEZAS,425,0.0771044992743106,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,TAPAS CALIENTES,300,0.054426705370101594,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,TAPAS FRIAS,272,0.04934687953555878,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,CLASICOS,260,0.04716981132075472,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,BLANCOS,237,0.04299709724238026,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,EXTRAS,227,0.04118287373004354,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,GUARNICIONES,168,0.030478955007256895,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,OTROS,116,0.02104499274310595,18
+gold,tabla_maestra_semanal_articulos,department_name__departments_master,ESPUMOSOS,47,0.008526850507982584,18

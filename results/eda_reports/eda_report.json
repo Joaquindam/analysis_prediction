@@ -1,0 +1,253 @@
+{
+  "rules": {
+    "analyze_silver": true,
+    "analyze_gold": true,
+    "clean_previous_outputs": true,
+    "save_figures": true,
+    "save_tables": true,
+    "save_report": true,
+    "top_n_categories": 15,
+    "max_categories_for_frequency_table": 30,
+    "min_non_null_for_correlation": 20,
+    "max_target_correlations": 25,
+    "daily_target_candidates": [
+      "facturacion",
+      "facturacion_tickets"
+    ],
+    "daily_activity_candidates": [
+      "num_tickets",
+      "num_tickets_unicos"
+    ],
+    "rolling_window_days": 7,
+    "low_activity_weekday_threshold": 0.25,
+    "min_days_for_weekday_diagnostic": 4,
+    "possible_leakage_correlation_threshold": 0.995,
+    "article_target_candidates": [
+      "units",
+      "amount"
+    ],
+    "article_top_n": 20,
+    "analyze_reservations": true,
+    "analyze_unique_events": true,
+    "generic_numeric_distributions": false,
+    "generic_numeric_max_columns": 8,
+    "histogram_bins": 30,
+    "figure_dpi": 150
+  },
+  "silver_datasets_analyzed": [
+    "articulos",
+    "departamentos",
+    "eventos",
+    "facturas",
+    "festivos",
+    "menu",
+    "meteo_diaria",
+    "meteo_horaria",
+    "reservas",
+    "tickets",
+    "tips",
+    "total_articles",
+    "ventas"
+  ],
+  "gold_datasets_analyzed": [
+    "tabla_maestra_diaria",
+    "tabla_maestra_semanal_articulos"
+  ],
+  "general_tables": {
+    "dataset_summary": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\eda_dataset_summary.csv",
+    "column_profile": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\eda_column_profile.csv",
+    "missingness": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\eda_missingness.csv",
+    "categorical_frequencies": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\eda_categorical_frequencies.csv"
+  },
+  "generic_distribution_figures": [],
+  "daily_gold": {
+    "available": true,
+    "rows": 281,
+    "date_start": "2025-10-02 00:00:00",
+    "date_end": "2026-07-09 00:00:00",
+    "unique_dates": 281,
+    "target_column": "facturacion",
+    "activity_column": "num_tickets",
+    "calendar_days_in_range": 281,
+    "missing_calendar_dates": 0,
+    "target_non_null": 242,
+    "target_missing": 39,
+    "target_mean": 2799.554876033058,
+    "target_median": 2440.925,
+    "target_std": 1346.6596391111527,
+    "target_min": 637.9,
+    "target_max": 6785.2,
+    "target_zero_days": 0,
+    "days_with_positive_activity": 242,
+    "days_without_positive_activity": 39,
+    "candidate_low_activity_weekdays": [
+      "Monday"
+    ],
+    "partial_calendar_months": [
+      "2025-10",
+      "2026-07"
+    ],
+    "saved_tables": {
+      "weekday_profile": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\gold_daily__weekday_profile.csv",
+      "monthly_profile": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\gold_daily__monthly_profile.csv",
+      "target_correlations": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\gold_daily__target_correlations.csv"
+    },
+    "saved_figures": {
+      "target_timeline": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_daily__target_timeline.png",
+      "target_correlations": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_daily__target_correlations.png",
+      "weekday_pattern": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_daily__weekday_pattern.png",
+      "weekday_activity_coverage": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_daily__weekday_activity_coverage.png",
+      "monthly_pattern": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_daily__monthly_pattern.png"
+    }
+  },
+  "article_period_gold": {
+    "available": true,
+    "rows": 5512,
+    "articles": 251,
+    "article_profile_rows": 251,
+    "periods": 41,
+    "date_start": "2025-10-01 00:00:00",
+    "date_end": "2026-07-09 00:00:00",
+    "expected_period_days": 7,
+    "period_days_min": 4,
+    "period_days_max": 7,
+    "period_days_median": 7.0,
+    "complete_period_fraction": 0.9512195121951219,
+    "complete_periods": 39,
+    "incomplete_periods": 2,
+    "top_10_articles_units_share": 0.4342133593069154,
+    "top_20_articles_units_share": 0.5767878197570102,
+    "articles_observed_in_lt_25pct_periods": 89,
+    "articles_observed_in_lt_50pct_periods": 128,
+    "median_article_period_coverage": 0.4878048780487805,
+    "articles_with_department_changes": 14,
+    "saved_tables": {
+      "article_profile": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\gold_articles__article_profile.csv",
+      "period_totals": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\gold_articles__period_totals.csv"
+    },
+    "saved_figures": {
+      "top_units": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_articles__top_units.png",
+      "pareto_units": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_articles__pareto_units.png",
+      "period_coverage": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_articles__period_coverage.png",
+      "period_units": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_articles__period_units.png",
+      "period_units_per_day": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\gold_articles__period_units_per_day.png"
+    }
+  },
+  "reservations": {
+    "available": true,
+    "rows": 21341,
+    "status_counts": {
+      "completed": 17100,
+      "cancelled": 2893,
+      "liberada": 663,
+      "no_show": 493,
+      "pending": 162,
+      "llegada": 14,
+      "cuenta_solicitada": 13,
+      "a_revisar": 3
+    },
+    "no_show_fraction": 0.023101073051871982,
+    "walk_in_count": 3072,
+    "walk_in_fraction": 0.14394826859097512,
+    "people_median": 3.0,
+    "people_mean": 3.5383534042453495,
+    "people_max": 50,
+    "lead_time_hours_median": 5.932222222222222,
+    "lead_time_hours_mean": 40.30706573669853,
+    "lead_time_hours_p90": 95.58088888888888,
+    "lead_time_hours_p99": 527.2607888888888,
+    "lead_time_hours_max": 5020.796666666667,
+    "lead_time_invalid_count": 38,
+    "lead_time_invalid_fraction": 0.0017806100932477391,
+    "saved_tables": {
+      "status_profile": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\silver_reservations__status_profile.csv"
+    },
+    "saved_figures": {
+      "status_distribution": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\silver_reservations__status_distribution.png",
+      "lead_time": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\silver_reservations__lead_time.png"
+    }
+  },
+  "events": {
+    "available": true,
+    "unique_events": 78,
+    "duration_days_median": 2.0,
+    "duration_days_mean": 6.6923076923076925,
+    "duration_days_max": 79,
+    "events_over_7_days": 16,
+    "events_over_30_days": 6,
+    "intensity_counts": {
+      "-2": 1,
+      "-1": 1,
+      "0": 6,
+      "1": 22,
+      "2": 35,
+      "3": 12,
+      "4": 1
+    },
+    "saved_tables": {
+      "unique_events": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_tables\\silver_events__unique_events.csv"
+    },
+    "saved_figures": {
+      "duration": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\silver_events__unique_event_duration.png",
+      "intensity": "C:\\Users\\Usuario\\Documents\\Master_BigData_DataScience_IA\\TFM\\analysis_prediction\\results\\eda_figures\\silver_events__unique_event_intensity.png"
+    }
+  },
+  "diagnostics": [
+    {
+      "area": "daily_gold",
+      "diagnostic": "calendar_continuity",
+      "value": 0,
+      "message": "Daily Gold calendar is continuous."
+    },
+    {
+      "area": "daily_gold",
+      "diagnostic": "candidate_low_activity_weekdays",
+      "value": [
+        "Monday"
+      ],
+      "message": "Recurring low-activity weekdays were detected from observed business activity. They are candidates for closure/operating-schedule features, not automatically assumed closures."
+    },
+    {
+      "area": "daily_gold",
+      "diagnostic": "partial_calendar_months",
+      "value": [
+        "2025-10",
+        "2026-07"
+      ],
+      "message": "At least one calendar month is only partially covered by the available date range; monthly means should be interpreted with their coverage statistics."
+    },
+    {
+      "area": "article_period_gold",
+      "diagnostic": "median_article_period_coverage",
+      "value": 0.4878048780487805,
+      "message": "Article temporal coverage has been quantified. Low-coverage articles should be treated separately during later demand-modelling design."
+    },
+    {
+      "area": "article_period_gold",
+      "diagnostic": "stable_article_profile_key",
+      "value": {
+        "article_codes": 251,
+        "profile_rows": 251
+      },
+      "message": "Article profiling uses the stable article code as its entity key; mutable department/name metadata does not split one article into several profiles."
+    },
+    {
+      "area": "article_period_gold",
+      "diagnostic": "top_20_units_share",
+      "value": 0.5767878197570102,
+      "message": "Demand concentration among the top articles has been quantified for later segmentation."
+    },
+    {
+      "area": "reservations",
+      "diagnostic": "lead_time_invalid_fraction",
+      "value": 0.0017806100932477391,
+      "message": "Semantically invalid analytical lead times remain explicitly missing and traceable."
+    },
+    {
+      "area": "events",
+      "diagnostic": "unique_event_granularity",
+      "value": 78,
+      "message": "Event duration/intensity EDA is computed on unique events, not on expanded event-day rows."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+dataset,column,dtype,feature_dtype,origin,role,availability,safe_default,reason
+features_daily,date,datetime64[ns],datetime,gold_original,time_index,known_in_advance,False,Temporal index; derived calendar features are preferred.
+features_daily,num_tickets,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,num_tickets_unicos,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,facturacion_tickets,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,ticket_medio,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,ticket_mediano,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,ticket_maximo,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,ticket_minimo,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,num_comprobantes,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,num_facturas_pdf,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,num_facturas_pdf_unicas,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,facturacion_facturas_pdf,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,base_facturas_pdf,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,iva_facturas_pdf,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,efectivo_facturas_pdf,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,tarjeta_facturas_pdf,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,facturas_pdf_no_reconciliadas,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,pagos_pdf_no_reconciliados,float64,numeric,gold_original,unclassified_original,unknown,False,Availability cannot be guaranteed automatically; review before using as a predictor.
+features_daily,reservas_total,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,comensales_reservados_total,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,tamano_grupo_medio,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,tamano_grupo_mediano,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,tamano_grupo_maximo,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,reservas_completed,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,comensales_completed,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,reservas_cancelled,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,comensales_cancelled,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,reservas_no_show,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,comensales_no_show,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,reservas_pending,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,comensales_pending,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,no_show_rate,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,cancel_rate,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,lead_time_horas_medio,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,lead_time_horas_mediano,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,reservas_walk_in,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,reservas_grupo_grande,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,reservas_turno_cena,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,reservas_turno_comida,float64,numeric,gold_original,reservation_context,requires_prediction_time_snapshot,False,Daily reservation aggregates may contain information created or resolved after the intended prediction cutoff.
+features_daily,temperature_mean,float64,numeric,gold_original,weather_context,requires_forecast,False,Observed future weather is unavailable at prediction time; use only when an equivalent forecast is supplied.
+features_daily,temperature_max,float64,numeric,gold_original,weather_context,requires_forecast,False,Observed future weather is unavailable at prediction time; use only when an equivalent forecast is supplied.
+features_daily,temperature_min,float64,numeric,gold_original,weather_context,requires_forecast,False,Observed future weather is unavailable at prediction time; use only when an equivalent forecast is supplied.
+features_daily,precipitation_mm,float64,numeric,gold_original,weather_context,requires_forecast,False,Observed future weather is unavailable at prediction time; use only when an equivalent forecast is supplied.
+features_daily,rain_mm,float64,numeric,gold_original,weather_context,requires_forecast,False,Observed future weather is unavailable at prediction time; use only when an equivalent forecast is supplied.
+features_daily,precipitation_hours,float64,numeric,gold_original,weather_context,requires_forecast,False,Observed future weather is unavailable at prediction time; use only when an equivalent forecast is supplied.
+features_daily,wind_speed_max_kmh,float64,numeric,gold_original,weather_context,requires_forecast,False,Observed future weather is unavailable at prediction time; use only when an equivalent forecast is supplied.
+features_daily,sunshine_duration_s,float64,numeric,gold_original,weather_context,requires_forecast,False,Observed future weather is unavailable at prediction time; use only when an equivalent forecast is supplied.
+features_daily,sunshine_hours,float64,numeric,gold_original,weather_context,requires_forecast,False,Observed future weather is unavailable at prediction time; use only when an equivalent forecast is supplied.
+features_daily,latitude,float64,numeric,gold_original,unclassified_original,unknown,False,Availability cannot be guaranteed automatically; review before using as a predictor.
+features_daily,longitude,float64,numeric,gold_original,unclassified_original,unknown,False,Availability cannot be guaranteed automatically; review before using as a predictor.
+features_daily,elevation,float64,numeric,gold_original,unclassified_original,unknown,False,Availability cannot be guaranteed automatically; review before using as a predictor.
+features_daily,utc_offset_seconds,float64,numeric,gold_original,unclassified_original,unknown,False,Availability cannot be guaranteed automatically; review before using as a predictor.
+features_daily,es_festivo,bool,boolean,gold_original,known_context,known_in_advance,True,Calendar/event context can be known before the business day.
+features_daily,num_festivos,float64,numeric,gold_original,known_context,known_in_advance,True,Calendar/event context can be known before the business day.
+features_daily,festivo_nombre,object,categorical_or_text,gold_original,context_metadata,known_in_advance,False,Calendar/event context can be known before the business day.
+features_daily,tiene_evento,bool,boolean,gold_original,known_context,known_in_advance,True,Calendar/event context can be known before the business day.
+features_daily,num_eventos,float64,numeric,gold_original,known_context,known_in_advance,True,Calendar/event context can be known before the business day.
+features_daily,eventos_nombres,object,categorical_or_text,gold_original,context_metadata,known_in_advance,False,Calendar/event context can be known before the business day.
+features_daily,eventos_categorias,object,categorical_or_text,gold_original,context_metadata,known_in_advance,False,Calendar/event context can be known before the business day.
+features_daily,event_intensity_mean,float64,numeric,gold_original,known_context,known_in_advance,True,Calendar/event context can be known before the business day.
+features_daily,event_intensity_max,float64,numeric,gold_original,known_context,known_in_advance,True,Calendar/event context can be known before the business day.
+features_daily,year,Int64,numeric,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,month,Int64,numeric,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,quarter,Int64,numeric,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,day_of_month,Int64,numeric,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,day_of_week_num,Int64,numeric,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,day_of_week,object,categorical_or_text,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,week_of_year,Int64,numeric,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,is_weekend,bool,boolean,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,is_month_start,bool,boolean,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,is_month_end,bool,boolean,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,week_sin,Float64,numeric,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,week_cos,Float64,numeric,gold_original,calendar_source_redundant,known_in_advance,False,Canonical cal_* calendar features are generated by ap_features; the original Gold calendar column is retained only for traceability.
+features_daily,facturacion,float64,numeric,gold_original,target,target,False,Prediction target.
+features_daily,facturacion_source,object,categorical_or_text,gold_original,same_period_business_outcome,same_period_outcome,False,Same-day transaction/outcome information is not available before the target period is completed.
+features_daily,cal_year,Int64,numeric,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_month,Int64,numeric,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_quarter,Int64,numeric,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_day_of_month,Int64,numeric,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_day_of_week,Int64,numeric,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_week_of_year,Int64,numeric,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_is_weekend,boolean,boolean,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_is_month_start,boolean,boolean,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_is_month_end,boolean,boolean,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_day_of_year,Int64,numeric,engineered,calendar_feature,known_in_advance,True,Deterministic calendar feature.
+features_daily,cal_dow_sin,Float64,numeric,engineered,calendar_feature,known_in_advance,True,Cyclical encoding of deterministic calendar position.
+features_daily,cal_dow_cos,Float64,numeric,engineered,calendar_feature,known_in_advance,True,Cyclical encoding of deterministic calendar position.
+features_daily,cal_month_sin,Float64,numeric,engineered,calendar_feature,known_in_advance,True,Cyclical encoding of deterministic calendar position.
+features_daily,cal_month_cos,Float64,numeric,engineered,calendar_feature,known_in_advance,True,Cyclical encoding of deterministic calendar position.
+features_daily,cal_doy_sin,Float64,numeric,engineered,calendar_feature,known_in_advance,True,Cyclical encoding of deterministic calendar position.
+features_daily,cal_doy_cos,Float64,numeric,engineered,calendar_feature,known_in_advance,True,Cyclical encoding of deterministic calendar position.
+features_daily,facturacion__lag_1,float64,numeric,engineered,daily_history_lag,past_only,True,1-step lag computed strictly from prior observations.
+features_daily,facturacion__lag_7,float64,numeric,engineered,daily_history_lag,past_only,True,7-step lag computed strictly from prior observations.
+features_daily,facturacion__lag_14,float64,numeric,engineered,daily_history_lag,past_only,True,14-step lag computed strictly from prior observations.
+features_daily,facturacion__lag_28,float64,numeric,engineered,daily_history_lag,past_only,True,28-step lag computed strictly from prior observations.
+features_daily,num_tickets__lag_1,float64,numeric,engineered,daily_history_lag,past_only,True,1-step lag computed strictly from prior observations.
+features_daily,num_tickets__lag_7,float64,numeric,engineered,daily_history_lag,past_only,True,7-step lag computed strictly from prior observations.
+features_daily,num_tickets__lag_14,float64,numeric,engineered,daily_history_lag,past_only,True,14-step lag computed strictly from prior observations.
+features_daily,num_tickets__lag_28,float64,numeric,engineered,daily_history_lag,past_only,True,28-step lag computed strictly from prior observations.
+features_daily,num_tickets_unicos__lag_1,float64,numeric,engineered,daily_history_lag,past_only,True,1-step lag computed strictly from prior observations.
+features_daily,num_tickets_unicos__lag_7,float64,numeric,engineered,daily_history_lag,past_only,True,7-step lag computed strictly from prior observations.
+features_daily,num_tickets_unicos__lag_14,float64,numeric,engineered,daily_history_lag,past_only,True,14-step lag computed strictly from prior observations.
+features_daily,num_tickets_unicos__lag_28,float64,numeric,engineered,daily_history_lag,past_only,True,28-step lag computed strictly from prior observations.
+features_daily,reservas_total__lag_1,float64,numeric,engineered,daily_history_lag,past_only,True,1-step lag computed strictly from prior observations.
+features_daily,reservas_total__lag_7,float64,numeric,engineered,daily_history_lag,past_only,True,7-step lag computed strictly from prior observations.
+features_daily,reservas_total__lag_14,float64,numeric,engineered,daily_history_lag,past_only,True,14-step lag computed strictly from prior observations.
+features_daily,reservas_total__lag_28,float64,numeric,engineered,daily_history_lag,past_only,True,28-step lag computed strictly from prior observations.
+features_daily,comensales_reservados_total__lag_1,float64,numeric,engineered,daily_history_lag,past_only,True,1-step lag computed strictly from prior observations.
+features_daily,comensales_reservados_total__lag_7,float64,numeric,engineered,daily_history_lag,past_only,True,7-step lag computed strictly from prior observations.
+features_daily,comensales_reservados_total__lag_14,float64,numeric,engineered,daily_history_lag,past_only,True,14-step lag computed strictly from prior observations.
+features_daily,comensales_reservados_total__lag_28,float64,numeric,engineered,daily_history_lag,past_only,True,28-step lag computed strictly from prior observations.
+features_daily,facturacion__rolling_mean_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,facturacion__rolling_std_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,facturacion__rolling_count_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,facturacion__rolling_mean_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,facturacion__rolling_std_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,facturacion__rolling_count_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,facturacion__rolling_mean_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,facturacion__rolling_std_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,facturacion__rolling_count_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets__rolling_mean_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets__rolling_std_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets__rolling_count_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets__rolling_mean_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets__rolling_std_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets__rolling_count_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets__rolling_mean_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets__rolling_std_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets__rolling_count_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets_unicos__rolling_mean_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets_unicos__rolling_std_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets_unicos__rolling_count_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets_unicos__rolling_mean_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets_unicos__rolling_std_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets_unicos__rolling_count_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets_unicos__rolling_mean_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets_unicos__rolling_std_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,num_tickets_unicos__rolling_count_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,reservas_total__rolling_mean_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,reservas_total__rolling_std_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,reservas_total__rolling_count_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,reservas_total__rolling_mean_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,reservas_total__rolling_std_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,reservas_total__rolling_count_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,reservas_total__rolling_mean_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,reservas_total__rolling_std_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,reservas_total__rolling_count_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,comensales_reservados_total__rolling_mean_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,comensales_reservados_total__rolling_std_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,comensales_reservados_total__rolling_count_7,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,comensales_reservados_total__rolling_mean_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,comensales_reservados_total__rolling_std_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,comensales_reservados_total__rolling_count_14,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,comensales_reservados_total__rolling_mean_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,comensales_reservados_total__rolling_std_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,comensales_reservados_total__rolling_count_28,float64,numeric,engineered,daily_history_rolling,past_only,True,"Rolling statistic computed after shifting one step, so the current target period is excluded."
+features_daily,facturacion__same_weekday_mean_prior,float64,numeric,engineered,target_history_by_weekday,past_only,True,Uses only earlier observations from the same weekday.
+features_daily,facturacion__same_weekday_count_prior,float64,numeric,engineered,target_history_by_weekday,past_only,True,Uses only earlier observations from the same weekday.
+features_daily,num_tickets__same_weekday_positive_rate_prior,float64,numeric,engineered,activity_schedule_history,past_only,True,"Historical positive-activity rate for the weekday, computed without using future observations."
+features_daily,target_observed,boolean,boolean,engineered,training_metadata,target_metadata,False,Indicates whether a supervised target is present.
+features_daily,training_eligible,boolean,boolean,engineered,training_metadata,target_metadata,False,Row-level supervised-training eligibility flag.
+features_article_period,report_start,datetime64[us],datetime,gold_original,time_index,known_in_advance,False,Temporal identifier; derived period features are preferred.
+features_article_period,report_end,datetime64[us],datetime,gold_original,time_index,known_in_advance,False,Temporal identifier; derived period features are preferred.
+features_article_period,article_code,int64,numeric,gold_original,categorical_identifier,known_in_advance,True,Stable article identity; model layer must encode it categorically rather than as a continuous quantity.
+features_article_period,units,float64,numeric,gold_original,target,target,False,Prediction target.
+features_article_period,period_days,int64,numeric,gold_original,period_structure,known_in_advance,True,Period definition is known before prediction.
+features_article_period,period_is_complete,bool,boolean,gold_original,period_structure,known_in_advance,True,Period definition is known before prediction.
+features_article_period,period_is_complete_week,bool,boolean,gold_original,compatibility_metadata,known_in_advance,False,Legacy weekly compatibility field; the general period_is_complete feature is preferred.
+features_article_period,amount,float64,numeric,gold_original,same_period_business_outcome,same_period_outcome,False,Same-period monetary sales are not known before unit demand.
+features_article_period,es_invitacion,bool,boolean,gold_original,same_period_business_outcome,same_period_outcome,False,Invitation status is a realized transaction attribute.
+features_article_period,article_name,string,categorical_or_text,gold_original,metadata_text,known_if_catalog_available,False,Article text is metadata; explicit encoding is required.
+features_article_period,department_code,int64,numeric,gold_original,static_or_scheduled_metadata,known_if_catalog_available,True,Article catalogue metadata is usable when the future catalogue assignment is known.
+features_article_period,department_name,string,categorical_or_text,gold_original,metadata_text,known_if_catalog_available,False,Article catalogue metadata is usable when the future catalogue assignment is known.
+features_article_period,quality_repeated_business_key,bool,boolean,gold_original,quality_metadata,historical_metadata,False,"Quality diagnostic, not a default predictor."
+features_article_period,units__negative,bool,boolean,gold_original,quality_metadata,historical_metadata,False,"Quality diagnostic, not a default predictor."
+features_article_period,amount__negative,bool,boolean,gold_original,quality_metadata,historical_metadata,False,"Quality diagnostic, not a default predictor."
+features_article_period,period__invalid,bool,boolean,gold_original,quality_metadata,historical_metadata,False,"Quality diagnostic, not a default predictor."
+features_article_period,units__outlier,bool,boolean,gold_original,quality_metadata,historical_metadata,False,"Quality diagnostic, not a default predictor."
+features_article_period,amount__outlier,bool,boolean,gold_original,quality_metadata,historical_metadata,False,"Quality diagnostic, not a default predictor."
+features_article_period,article_name__master_conflict__articles_master,bool,boolean,gold_original,quality_metadata,historical_metadata,False,"Quality diagnostic, not a default predictor."
+features_article_period,article_name__articles_master,object,categorical_or_text,gold_original,redundant_master_metadata,known_if_catalog_available,False,Redundant with canonical column 'article_name'; retained for auditability but excluded from default predictors.
+features_article_period,department_code__master_conflict__articles_master,bool,boolean,gold_original,quality_metadata,historical_metadata,False,"Quality diagnostic, not a default predictor."
+features_article_period,department_code__articles_master,int64,numeric,gold_original,redundant_master_metadata,known_if_catalog_available,False,Redundant with canonical column 'department_code'; retained for auditability but excluded from default predictors.
+features_article_period,department_name__master_conflict__departments_master,bool,boolean,gold_original,quality_metadata,historical_metadata,False,"Quality diagnostic, not a default predictor."
+features_article_period,department_name__departments_master,object,categorical_or_text,gold_original,redundant_master_metadata,known_if_catalog_available,False,Redundant with canonical column 'department_name'; retained for auditability but excluded from default predictors.
+features_article_period,period_id,object,categorical_or_text,gold_original,time_index,known_in_advance,False,Temporal identifier; derived period features are preferred.
+features_article_period,period_index,int64,numeric,engineered,time_index,known_in_advance,False,Ordinal period index; derived temporal features are preferred.
+features_article_period,period_start_year,Int64,numeric,engineered,period_calendar_feature,known_in_advance,True,Deterministic feature of the report period.
+features_article_period,period_start_month,Int64,numeric,engineered,period_calendar_feature,known_in_advance,True,Deterministic feature of the report period.
+features_article_period,period_start_week_of_year,Int64,numeric,engineered,period_calendar_feature,known_in_advance,True,Deterministic feature of the report period.
+features_article_period,period_start_day_of_week,Int64,numeric,engineered,period_calendar_feature,known_in_advance,True,Deterministic feature of the report period.
+features_article_period,period_mid_month,Int64,numeric,engineered,period_calendar_feature,known_in_advance,True,Deterministic feature of the report period.
+features_article_period,period_month_sin,Float64,numeric,engineered,period_calendar_feature,known_in_advance,True,Cyclical encoding of report-period position.
+features_article_period,period_month_cos,Float64,numeric,engineered,period_calendar_feature,known_in_advance,True,Cyclical encoding of report-period position.
+features_article_period,period_week_sin,Float64,numeric,engineered,period_calendar_feature,known_in_advance,True,Cyclical encoding of report-period position.
+features_article_period,period_week_cos,Float64,numeric,engineered,period_calendar_feature,known_in_advance,True,Cyclical encoding of report-period position.
+features_article_period,units__lag_1,float64,numeric,engineered,article_target_lag,past_only,True,Exact 1-period lag. Missing means the article was not observed in that exact lagged period or the lag is unavailable.
+features_article_period,units__lag_1_observed,boolean,boolean,engineered,article_history_availability,past_only,True,Indicates whether the exact lag value exists.
+features_article_period,units__lag_2,float64,numeric,engineered,article_target_lag,past_only,True,Exact 2-period lag. Missing means the article was not observed in that exact lagged period or the lag is unavailable.
+features_article_period,units__lag_2_observed,boolean,boolean,engineered,article_history_availability,past_only,True,Indicates whether the exact lag value exists.
+features_article_period,units__lag_4,float64,numeric,engineered,article_target_lag,past_only,True,Exact 4-period lag. Missing means the article was not observed in that exact lagged period or the lag is unavailable.
+features_article_period,units__lag_4_observed,boolean,boolean,engineered,article_history_availability,past_only,True,Indicates whether the exact lag value exists.
+features_article_period,units__lag_8,float64,numeric,engineered,article_target_lag,past_only,True,Exact 8-period lag. Missing means the article was not observed in that exact lagged period or the lag is unavailable.
+features_article_period,units__lag_8_observed,boolean,boolean,engineered,article_history_availability,past_only,True,Indicates whether the exact lag value exists.
+features_article_period,history_periods_elapsed,int64,numeric,engineered,article_history_structure,past_only,True,Derived exclusively from report periods before the current one.
+features_article_period,history_observed_periods,int64,numeric,engineered,article_history_structure,past_only,True,Derived exclusively from report periods before the current one.
+features_article_period,history_observation_rate,float64,numeric,engineered,article_history_structure,past_only,True,Derived exclusively from report periods before the current one.
+features_article_period,units__expanding_mean_prior,float64,numeric,engineered,article_target_history,past_only,True,Expanding statistic computed only from previous periods.
+features_article_period,units__expanding_std_prior,float64,numeric,engineered,article_target_history,past_only,True,Expanding statistic computed only from previous periods.
+features_article_period,periods_since_last_observation,float64,numeric,engineered,article_history_structure,past_only,True,Derived exclusively from report periods before the current one.
+features_article_period,article_demand_regime_prior,string,categorical_or_text,engineered,adaptive_demand_regime,past_only,True,"Demand regime is recomputed at each period using only prior coverage, avoiding future-information segmentation."
+features_article_period,units__rolling_mean_4,float64,numeric,engineered,article_target_history,past_only,True,Rolling statistic over exact prior report periods; current-period target is excluded.
+features_article_period,units__rolling_std_4,float64,numeric,engineered,article_target_history,past_only,True,Rolling statistic over exact prior report periods; current-period target is excluded.
+features_article_period,units__rolling_count_4,float64,numeric,engineered,article_target_history,past_only,True,Rolling statistic over exact prior report periods; current-period target is excluded.
+features_article_period,units__rolling_mean_8,float64,numeric,engineered,article_target_history,past_only,True,Rolling statistic over exact prior report periods; current-period target is excluded.
+features_article_period,units__rolling_std_8,float64,numeric,engineered,article_target_history,past_only,True,Rolling statistic over exact prior report periods; current-period target is excluded.
+features_article_period,units__rolling_count_8,float64,numeric,engineered,article_target_history,past_only,True,Rolling statistic over exact prior report periods; current-period target is excluded.
+features_article_period,global_target_total__lag_1,float64,numeric,engineered,global_demand_history,past_only,True,Aggregate demand history is shifted so the current report period is never used.
+features_article_period,global_target_total__rolling_mean_4,float64,numeric,engineered,global_demand_history,past_only,True,Aggregate demand history is shifted so the current report period is never used.
+features_article_period,context_days_available,int64,numeric,engineered,context_coverage,known_in_advance,True,Number of Daily Gold rows available inside the report period.
+features_article_period,context_temperature_mean__mean,float64,numeric,engineered,period_context,requires_forecast,False,Mean daily context over the report period.
+features_article_period,context_temperature_max__mean,float64,numeric,engineered,period_context,requires_forecast,False,Mean daily context over the report period.
+features_article_period,context_temperature_min__mean,float64,numeric,engineered,period_context,requires_forecast,False,Mean daily context over the report period.
+features_article_period,context_precipitation_mm__mean,float64,numeric,engineered,period_context,requires_forecast,False,Mean daily context over the report period.
+features_article_period,context_precipitation_mm__sum,float64,numeric,engineered,period_context,requires_forecast,False,Additive daily context summed over the report period.
+features_article_period,context_rain_mm__mean,float64,numeric,engineered,period_context,requires_forecast,False,Mean daily context over the report period.
+features_article_period,context_rain_mm__sum,float64,numeric,engineered,period_context,requires_forecast,False,Additive daily context summed over the report period.
+features_article_period,context_precipitation_hours__mean,float64,numeric,engineered,period_context,requires_forecast,False,Mean daily context over the report period.
+features_article_period,context_precipitation_hours__sum,float64,numeric,engineered,period_context,requires_forecast,False,Additive daily context summed over the report period.
+features_article_period,context_wind_speed_max_kmh__mean,float64,numeric,engineered,period_context,requires_forecast,False,Mean daily context over the report period.
+features_article_period,context_sunshine_duration_s__mean,float64,numeric,engineered,period_context,requires_forecast,False,Mean daily context over the report period.
+features_article_period,context_sunshine_hours__mean,float64,numeric,engineered,period_context,requires_forecast,False,Mean daily context over the report period.
+features_article_period,context_es_festivo__days_true,int64,numeric,engineered,period_context,known_in_advance,True,Aggregated from daily context over the report period.
+features_article_period,context_num_festivos__mean,float64,numeric,engineered,period_context,known_in_advance,True,Mean daily context over the report period.
+features_article_period,context_num_festivos__sum,float64,numeric,engineered,period_context,known_in_advance,True,Additive daily context summed over the report period.
+features_article_period,context_tiene_evento__days_true,int64,numeric,engineered,period_context,known_in_advance,True,Aggregated from daily context over the report period.
+features_article_period,context_num_eventos__mean,float64,numeric,engineered,period_context,known_in_advance,True,Mean daily context over the report period.
+features_article_period,context_num_eventos__sum,float64,numeric,engineered,period_context,known_in_advance,True,Additive daily context summed over the report period.
+features_article_period,context_event_intensity_mean__mean,float64,numeric,engineered,period_context,known_in_advance,True,Mean daily context over the report period.
+features_article_period,context_event_intensity_max__mean,float64,numeric,engineered,period_context,known_in_advance,True,Mean daily context over the report period.
+features_article_period,context_coverage_fraction,float64,numeric,engineered,context_coverage,known_in_advance,True,Fraction of the report period covered by available Daily Gold context rows.
+features_article_period,target_observed,boolean,boolean,engineered,training_metadata,target_metadata,False,Indicates whether a supervised target is present.
+features_article_period,training_eligible,boolean,boolean,engineered,training_metadata,target_metadata,False,Eligibility flag; incomplete periods/invalid targets can be excluded later without deleting them here.

@@ -1,0 +1,107 @@
+{
+  "rules": {
+    "event_date_candidates": [
+      "date",
+      "fecha",
+      "event_date",
+      "fecha_evento"
+    ],
+    "event_start_candidates": [
+      "event_start",
+      "start_date",
+      "fecha_inicio",
+      "date_start"
+    ],
+    "event_end_candidates": [
+      "event_end",
+      "end_date",
+      "fecha_fin",
+      "date_end"
+    ],
+    "event_id_candidates": [
+      "event_id",
+      "id_evento",
+      "evento_id",
+      "id"
+    ],
+    "event_name_candidates": [
+      "event_name",
+      "nombre_evento",
+      "evento_nombre",
+      "name"
+    ],
+    "event_intensity_candidates": [
+      "event_intensity",
+      "event_intensity_score",
+      "intensidad_sugerida",
+      "intensidad",
+      "intensity"
+    ],
+    "holiday_date_candidates": [
+      "date",
+      "fecha",
+      "holiday_date",
+      "fecha_festivo"
+    ],
+    "holiday_flag_candidates": [
+      "es_festivo",
+      "is_holiday",
+      "holiday_flag"
+    ],
+    "holiday_name_candidates": [
+      "festivo_nombre",
+      "holiday_name",
+      "nombre_festivo",
+      "name"
+    ],
+    "weather_date_candidates": [
+      "date",
+      "fecha",
+      "time",
+      "datetime"
+    ],
+    "weather_column_map": {},
+    "include_events": true,
+    "include_holidays": true,
+    "include_weather_forecast": true,
+    "save_tables": true,
+    "save_report": true
+  },
+  "forecast_horizon": {
+    "forecast_start": "2026-07-13T00:00:00",
+    "forecast_end": "2026-07-19T00:00:00",
+    "period_days": 7,
+    "cadence_days": 7,
+    "latest_observed_end": "2026-07-09T00:00:00",
+    "latest_complete_start": "2026-06-29T00:00:00",
+    "latest_complete_end": "2026-07-05T00:00:00",
+    "horizon_source": "article_gold_cadence"
+  },
+  "context_rows": 7,
+  "expected_days": 7,
+  "daily_coverage_fraction": 1.0,
+  "events": {
+    "expanded_event_day_rows": 29,
+    "unique_events": 7,
+    "days_with_events": 7,
+    "max_simultaneous_events": 5
+  },
+  "holidays": {
+    "holiday_rows": 0,
+    "holiday_days": 0
+  },
+  "weather_forecast": {
+    "supplied": false,
+    "weather_columns": [],
+    "days_available": 0,
+    "coverage_fraction": 0.0
+  },
+  "methodology": {
+    "events_and_holidays": "Scheduled event and public-holiday information is treated as known in advance.",
+    "weather": "Weather is included only when supplied explicitly as a forecast available at prediction time.",
+    "prohibited_future_information": "Observed future weather, future sales, tickets, customer counts and post-cutoff reservation outcomes are not created or inferred by this module."
+  },
+  "warnings": [
+    "No weather forecast was supplied. Event and holiday context is still complete, but weather-dependent features remain unavailable."
+  ]
+}

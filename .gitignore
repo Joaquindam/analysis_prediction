@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / caches
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw business data and generated data layers
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/ventas_semanal/
+!data/raw/pdfs/
+data/raw/ventas_semanal/*
+!data/raw/ventas_semanal/.gitkeep
+data/raw/pdfs/*
+!data/raw/pdfs/.gitkeep
+
+data/bronze/*
+!data/bronze/.gitkeep
+
+data/silver/*
+!data/silver/.gitkeep
+
+data/gold/*
+!data/gold/.gitkeep
+
+# Generated reports / figures
+results/depuration_figures/*
+!results/depuration_figures/.gitkeep
+
+results/depuration_reports/*
+!results/depuration_reports/.gitkeep
+
+results/integration_reports/*
+!results/integration_reports/.gitkeep
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+~$*
