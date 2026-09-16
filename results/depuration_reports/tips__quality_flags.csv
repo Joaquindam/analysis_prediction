@@ -1,0 +1,9 @@
+flag,flagged_rows,flagged_fraction
+tip__outlier,93,0.05480259281084266
+document_amount__outlier,75,0.04419563936358279
+document_total__outlier,75,0.04419563936358279
+tip_ratio__outlier,69,0.04065998821449617
+tip_reconciliation__invalid,0,0.0
+tip__negative,0,0.0
+quality_repeated_business_key,0,0.0
+tip_reconciliation_difference__outlier,0,0.0

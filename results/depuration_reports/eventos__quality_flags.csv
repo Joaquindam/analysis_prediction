@@ -1,0 +1,5 @@
+flag,flagged_rows,flagged_fraction
+quality_repeated_business_key,0,0.0
+event_range__invalid,0,0.0
+event_duration_days__invalid,0,0.0
+event_day_number__invalid,0,0.0

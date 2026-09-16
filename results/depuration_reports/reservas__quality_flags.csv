@@ -1,0 +1,5 @@
+flag,flagged_rows,flagged_fraction
+people__outlier,1019,0.04774846539524858
+lead_time__invalid,38,0.0017806100932477391
+people__invalid,0,0.0
+quality_repeated_business_key,0,0.0

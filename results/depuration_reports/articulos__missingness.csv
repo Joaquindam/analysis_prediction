@@ -1,0 +1,8 @@
+column,dtype,missing_count,missing_fraction,unique_non_null
+article_short_name,string,387,0.9555555555555556,18
+source_file,string,0,0.0,1
+article_code,Int64,0,0.0,405
+article_name,string,0,0.0,399
+department_code,Int64,0,0.0,22
+quality_repeated_business_key,bool,0,0.0,1
+article_code__conflict,bool,0,0.0,1

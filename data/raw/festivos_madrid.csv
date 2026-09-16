@@ -1,0 +1,58 @@
+fecha,festivo_nombre,es_festivo,dia_semana,nivel
+2023-01-01,Año Nuevo,1,Domingo,nacional_autonomico
+2023-01-06,Epifanía del Señor,1,Viernes,nacional_autonomico
+2023-03-20,Lunes siguiente a San José,1,Lunes,nacional_autonomico
+2023-04-06,Jueves Santo,1,Jueves,nacional_autonomico
+2023-04-07,Viernes Santo,1,Viernes,nacional_autonomico
+2023-05-01,Fiesta del Trabajo,1,Lunes,nacional_autonomico
+2023-05-02,Fiesta de la Comunidad de Madrid,1,Martes,nacional_autonomico
+2023-05-15,San Isidro (festivo local Madrid capital),1,Lunes,local_madrid_capital
+2023-07-17,Virgen del Carmen (festivo local Pozuelo),1,Lunes,local_pozuelo
+2023-08-15,Asunción de la Virgen,1,Martes,nacional_autonomico
+2023-09-04,Virgen de la Consolación (festivo local Pozuelo),1,Lunes,local_pozuelo
+2023-10-12,Fiesta Nacional de España,1,Jueves,nacional_autonomico
+2023-11-01,Todos los Santos,1,Miércoles,nacional_autonomico
+2023-11-09,Ntra. Sra. de la Almudena (festivo local Madrid capital),1,Jueves,local_madrid_capital
+2023-12-06,Día de la Constitución Española,1,Miércoles,nacional_autonomico
+2023-12-08,Inmaculada Concepción,1,Viernes,nacional_autonomico
+2023-12-25,Natividad del Señor,1,Lunes,nacional_autonomico
+2024-01-01,Año Nuevo,1,Lunes,nacional_autonomico
+2024-01-06,Epifanía del Señor,1,Sábado,nacional_autonomico
+2024-03-28,Jueves Santo,1,Jueves,nacional_autonomico
+2024-03-29,Viernes Santo,1,Viernes,nacional_autonomico
+2024-05-01,Fiesta del Trabajo,1,Miércoles,nacional_autonomico
+2024-05-02,Fiesta de la Comunidad de Madrid,1,Jueves,nacional_autonomico
+2024-05-15,San Isidro (festivo local Madrid capital),1,Miércoles,local_madrid_capital
+2024-07-16,Virgen del Carmen (festivo local Pozuelo),1,Martes,local_pozuelo
+2024-07-25,Santiago Apóstol,1,Jueves,nacional_autonomico
+2024-08-15,Asunción de la Virgen,1,Jueves,nacional_autonomico
+2024-09-02,Virgen de la Consolación (festivo local Pozuelo),1,Lunes,local_pozuelo
+2024-10-12,Fiesta Nacional de España,1,Sábado,nacional_autonomico
+2024-11-01,Todos los Santos,1,Viernes,nacional_autonomico
+2024-11-09,Ntra. Sra. de la Almudena (festivo local Madrid capital),1,Sábado,local_madrid_capital
+2024-12-06,Día de la Constitución Española,1,Viernes,nacional_autonomico
+2024-12-08,Inmaculada Concepción,1,Domingo,nacional_autonomico
+2024-12-25,Natividad del Señor,1,Miércoles,nacional_autonomico
+2025-01-01,Año Nuevo,1,Miércoles,nacional_autonomico
+2025-01-06,Epifanía del Señor,1,Lunes,nacional_autonomico
+2025-04-17,Jueves Santo,1,Jueves,nacional_autonomico
+2025-04-18,Viernes Santo,1,Viernes,nacional_autonomico
+2025-05-01,Fiesta del Trabajo,1,Jueves,nacional_autonomico
+2025-05-02,Fiesta de la Comunidad de Madrid,1,Viernes,nacional_autonomico
+2025-05-15,San Isidro (festivo local Madrid capital),1,Jueves,local_madrid_capital
+2025-07-16,Virgen del Carmen (festivo local Pozuelo),1,Miércoles,local_pozuelo
+2025-07-25,Santiago Apóstol,1,Viernes,nacional_autonomico
+2025-08-15,Asunción de la Virgen,1,Viernes,nacional_autonomico
+2025-09-08,Virgen de la Consolación (festivo local Pozuelo),1,Lunes,local_pozuelo
+2025-11-01,Todos los Santos,1,Sábado,nacional_autonomico
+2025-11-10,"Ntra. Sra. de la Almudena (festivo local Madrid capital, trasladado)",1,Lunes,local_madrid_capital
+2025-12-06,Día de la Constitución Española,1,Sábado,nacional_autonomico
+2025-12-08,Inmaculada Concepción,1,Lunes,nacional_autonomico
+2025-12-25,Natividad del Señor,1,Jueves,nacional_autonomico
+2026-01-01,Año Nuevo,1,Jueves,nacional_autonomico
+2026-01-06,Epifanía del Señor,1,Martes,nacional_autonomico
+2026-04-02,Jueves Santo,1,Jueves,nacional_autonomico
+2026-04-03,Viernes Santo,1,Viernes,nacional_autonomico
+2026-05-01,Fiesta del Trabajo,1,Viernes,nacional_autonomico
+2026-05-02,Fiesta de la Comunidad de Madrid,1,Sábado,nacional_autonomico
+2026-05-15,San Isidro (festivo local Madrid capital),1,Viernes,local_madrid_capital

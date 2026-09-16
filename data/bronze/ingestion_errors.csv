@@ -1,0 +1,3 @@
+source_file,error_type,error_message
+eventos_relevantes_pozuelo_la_roca_2025_2026.csv,ValueError,Event CSV does not contain a date column.
+open-meteo-pozuelo.csv,ValueError,"Could not parse CSV file open-meteo-pozuelo.csv. Parsing errors: ['Error tokenizing data. C error: Expected 6 fields in line 30870, saw 9\n']"

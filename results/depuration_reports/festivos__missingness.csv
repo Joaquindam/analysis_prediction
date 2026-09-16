@@ -1,0 +1,8 @@
+column,dtype,missing_count,missing_fraction,unique_non_null
+source_file,string,0,0.0,1
+date,datetime64[ns],0,0.0,57
+holiday_name,string,0,0.0,19
+is_holiday,Int64,0,0.0,1
+day_name,string,0,0.0,7
+holiday_level,string,0,0.0,3
+quality_repeated_business_key,bool,0,0.0,1

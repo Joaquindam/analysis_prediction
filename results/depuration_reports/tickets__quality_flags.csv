@@ -1,0 +1,7 @@
+flag,flagged_rows,flagged_fraction
+document_total__outlier,362,0.05395737069607989
+quality_repeated_business_key,0,0.0
+document_total__negative,0,0.0
+receipt_count__negative,0,0.0
+receipt_count__outlier,0,0.0
+week_of_year__outlier,0,0.0

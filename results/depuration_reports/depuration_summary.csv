@@ -1,0 +1,14 @@
+dataset,rows_before,rows_after,rows_removed,exact_duplicates,missing_key_rows,imputed_columns,statistical_outlier_flags
+articulos,405,405,0,0,0,0,0
+departamentos,23,23,0,0,0,0,0
+eventos,522,522,0,0,0,0,0
+facturas,72,72,0,0,0,0,31
+festivos,57,57,0,0,0,0,0
+menu,405,405,0,0,0,0,0
+meteo_diaria,1286,1286,0,0,0,0,0
+meteo_horaria,30864,30864,0,0,0,0,0
+reservas,21341,21341,0,0,0,1,1019
+tickets,6709,6709,0,0,0,0,362
+tips,1697,1697,0,0,0,0,312
+total_articles,251,251,0,0,0,0,132
+ventas,5532,5532,0,0,0,0,917

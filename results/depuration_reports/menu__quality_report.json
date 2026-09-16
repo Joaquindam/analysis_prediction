@@ -1,0 +1,67 @@
+{
+  "dataset": "menu",
+  "rows_before": 405,
+  "rows_after": 405,
+  "columns_before": 3,
+  "columns_after": 5,
+  "duplicate_summary": {
+    "exact_duplicate_rows": 0,
+    "action": "kept"
+  },
+  "business_key_summary": {
+    "business_key_columns": [
+      "article_code"
+    ],
+    "repeated_business_key_rows": 0
+  },
+  "missing_required_key_summary": {
+    "required_keys": [
+      "article_code"
+    ],
+    "rows_missing_required_keys": 0,
+    "action": "none"
+  },
+  "imputation_actions": [],
+  "outlier_summaries": [],
+  "active_quality_flags": [
+    {
+      "flag": "quality_repeated_business_key",
+      "flagged_rows": 0,
+      "flagged_fraction": 0.0
+    },
+    {
+      "flag": "article_code__conflict",
+      "flagged_rows": 0,
+      "flagged_fraction": 0.0
+    }
+  ],
+  "rules": {
+    "drop_exact_duplicates": true,
+    "drop_rows_missing_required_keys": true,
+    "strip_string_whitespace": true,
+    "auto_impute_low_missingness": true,
+    "max_missing_fraction_for_auto_imputation": 0.05,
+    "numeric_imputation_strategy": "median",
+    "categorical_imputation_strategy": "constant",
+    "categorical_missing_label": "UNKNOWN",
+    "detect_outliers": true,
+    "outlier_action": "flag",
+    "iqr_multiplier": 1.5,
+    "robust_z_threshold": 3.5,
+    "min_rows_for_outlier_detection": 8,
+    "min_unique_values_for_outlier_detection": 5,
+    "max_outliers_to_print_per_column": 10,
+    "large_group_people": 8,
+    "payment_reconciliation_tolerance": 0.02,
+    "invoice_reconciliation_tolerance": 0.02,
+    "plausible_temperature_min_c": -60.0,
+    "plausible_temperature_max_c": 60.0,
+    "plausible_daily_hours_max": 24.0,
+    "plausible_daily_seconds_max": 86400.0,
+    "save_quality_reports": true,
+    "save_figures": true,
+    "save_outlier_details": true,
+    "top_missing_columns_to_print": 12,
+    "console_detail": "summary"
+  }
+}
