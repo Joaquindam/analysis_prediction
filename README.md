@@ -2,7 +2,7 @@
 
 Framework modular de análisis, modelado temporal y apoyo a la decisión para pequeños negocios hosteleros con históricos escasos y heterogéneos.
 
-El objetivo de este repositorio es transformar datos operativos procedentes de distintas fuentes —ventas por artículo, tickets, reservas, facturas, eventos, festivos y meteorología— en predicciones útiles para la planificación del siguiente periodo de operación.
+El objetivo de este repositorio es transformar datos operativos procedentes de distintas fuentes como ventas por artículo, tickets, reservas, facturas, eventos, festivos y meteorología, en predicciones útiles para la planificación del siguiente periodo de operación.
 
 La parte desarrollada en este pipeline se centra en predecir la demanda de cada artículo en el siguiente periodo de reporte, expresada en unidades previstas por artículo.
 
