@@ -1,7 +1,0 @@
-column,dtype,missing_count,missing_fraction,unique_non_null
-department_short_name,string,23,1.0,0
-source_file,string,0,0.0,1
-department_code,Int64,0,0.0,23
-department_name,string,0,0.0,23
-quality_repeated_business_key,bool,0,0.0,1
-department_code__conflict,bool,0,0.0,1

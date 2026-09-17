@@ -1,7 +1,0 @@
-flag,flagged_rows,flagged_fraction
-units__outlier,70,0.2788844621513944
-amount__outlier,62,0.24701195219123506
-units__negative,0,0.0
-quality_repeated_business_key,0,0.0
-period__invalid,0,0.0
-amount__negative,0,0.0

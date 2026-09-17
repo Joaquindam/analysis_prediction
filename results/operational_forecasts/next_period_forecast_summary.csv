@@ -1,2 +1,0 @@
-forecast_period_start,forecast_period_end,forecast_articles,scope_applied,articles_excluded_by_scope,manual_review_articles,predicted_total_units,top_20_predicted_units,top_20_predicted_share,fallback_articles,future_context_coverage_mean
-2026-07-13,2026-07-19,251,True,0,55,2731.3715572433753,1411.4414216414216,0.5167518926154128,0,1.0

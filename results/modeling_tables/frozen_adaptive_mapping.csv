@@ -1,6 +1,0 @@
-regime,selected_model,freeze_source,development_oof_rows,development_oof_wape
-cold_start,HistGradientBoosting Poisson,development_oof_regime,89,0.6854239018166735
-frequent,Historical expanding mean,development_oof_regime,1600,0.26309898868509224
-intermittent,HistGradientBoosting Poisson,development_oof_regime,213,0.5907216583449262
-regular,Historical expanding mean,development_oof_regime,196,0.4821566383068214
-sparse,Historical expanding mean,development_oof_regime,77,0.5593133559492399

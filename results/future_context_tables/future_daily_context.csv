@@ -1,8 +1,0 @@
-date,num_eventos,event_intensity_mean,event_intensity_max,tiene_evento,es_festivo,num_festivos
-2026-07-13,3,1.3333333333333333,2,True,False,0
-2026-07-14,4,2.0,4,True,False,0
-2026-07-15,4,1.5,2,True,False,0
-2026-07-16,4,1.5,2,True,False,0
-2026-07-17,4,1.5,2,True,False,0
-2026-07-18,5,1.8,3,True,False,0
-2026-07-19,5,1.6,3,True,False,0
