@@ -59,35 +59,35 @@ Thumbs.db
 
 # Raw business data and generated data layers
 
-#data/raw/*
-#!data/raw/.gitkeep
-#!data/raw/ventas_semanal/
-#!data/raw/pdfs/
-#data/raw/ventas_semanal/*
-#!data/raw/ventas_semanal/.gitkeep
-#data/raw/pdfs/*
-#!data/raw/pdfs/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/ventas_semanal/
+!data/raw/pdfs/
+data/raw/ventas_semanal/*
+!data/raw/ventas_semanal/.gitkeep
+data/raw/pdfs/*
+!data/raw/pdfs/.gitkeep
 
-#data/bronze/*
-#!data/bronze/.gitkeep
+data/bronze/*
+!data/bronze/.gitkeep
 
-#data/silver/*
-#!data/silver/.gitkeep
+data/silver/*
+!data/silver/.gitkeep
 
-#data/gold/*
-#!data/gold/.gitkeep
+data/gold/*
+!data/gold/.gitkeep
 
-#data/features/*
-#!data/features/.gitkeep
-# Generated reports / figures
-#results/depuration_figures/*
-#!results/depuration_figures/.gitkeep
+data/features/*
+!data/features/.gitkeep
+ Generated reports / figures
+results/depuration_figures/*
+!results/depuration_figures/.gitkeep
 
-#results/depuration_reports/*
-#!results/depuration_reports/.gitkeep
+results/depuration_reports/*
+!results/depuration_reports/.gitkeep
 
-#results/integration_reports/*
-#!results/integration_reports/.gitkeep
+results/integration_reports/*
+!results/integration_reports/.gitkeep
 
 # Logs / temporary files
 *.log
